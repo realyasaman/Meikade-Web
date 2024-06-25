@@ -30,11 +30,6 @@ export const Home = () => {
                 >
                     <PersonIcon />
                 </IconButton>
-                <Button variant="contained" disableElevation
-                    onClick={() => navigate('/poets')}
-                >
-                    Poets
-                </Button>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1, fontFamily: 'Vazirmatn FD NL' }}>
                     می‌کده
                 </Typography>
